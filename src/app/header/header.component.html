@@ -1,0 +1,43 @@
+<div class="container">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2">
+        <div class="col-12 col-md-3 mb-2 mb-md-0 ms-md-5 text-center text-md-start">
+            <a href="/" class="d-flex align-items-center text-decoration-none justify-content-center justify-content-md-start">
+                <span class="title-text me-4">CLINITY</span>
+            </a>
+        </div>
+
+        <div class="col-12 col-md-auto mb-2 justify-content-center mb-md-0 text-center">
+            <app-header-tile 
+            [imageUrl]="'assets/images/call.png'" 
+            [title]="'EMERGENCY'" 
+            [value]="'+91 9767595553'">
+        </app-header-tile>
+        </div>
+
+        <div class="col-12 col-md-3 text-center text-md-end">
+            <app-header-tile
+            [imageUrl]="'assets/images/location.png'"
+            [title]="'LOCATION'" 
+            [value]="'Tnk Estate, Basmat Road, Prabhani'"></app-header-tile>
+        </div>
+    </header>
+</div>
+
+<nav class="py-2 header-menu justify-content-center">
+    <div class="container d-flex align-items-center justify-content-between">
+        <div class="col-12 col-md-auto mx-auto">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a href="#" class="nav-link px-2 active">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2">About Us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2">Services</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2">Partners</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2">Community</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="col-12 col-md-3 text-center text-md-end">
+            <a href="#" class="nav-link px-2 me-md-5"><i class="bi bi-search"></i></a>
+        </div>
+    </div>
+</nav>

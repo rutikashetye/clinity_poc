@@ -1,0 +1,13 @@
+.footer {
+    background-color: var(--primary-color);
+}
+
+.brand-name {
+    color: var(--acent-color);
+    font-family: "Yeseva One", serif;
+    font-size: 36px;
+}
+
+.custom-footer-padding {
+    padding-left: 30px; /* Adjust this value as needed */
+}

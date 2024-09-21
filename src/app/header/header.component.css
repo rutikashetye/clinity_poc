@@ -1,0 +1,20 @@
+.title-text {
+    font-family: "Yeseva One", serif;
+    color: var(--primary-color);
+    font-size: 36px;
+}
+
+.header-menu {
+    background-color: var(--primary-color);
+    color: white;
+    font-family: "Work Sans", sans-serif;
+}
+
+.nav-link.active {
+    color: var(--acent-color);
+    font-weight: 500;
+}
+
+.nav-link {
+    color: white;
+}
