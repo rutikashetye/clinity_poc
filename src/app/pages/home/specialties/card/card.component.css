@@ -1,0 +1,23 @@
+.card {
+    border-radius: 0%;
+}
+
+.left-border {
+    border-left: none;
+}
+
+.right-border {
+    border-right: none;
+}
+
+.top-border {
+    border-top: none;
+}
+
+.bottom-border {
+    border-bottom: none;
+}
+
+.bi {
+    color: var(--secondary-color);
+}

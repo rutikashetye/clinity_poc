@@ -1,0 +1,11 @@
+.card-text {
+    color: var(--primary-color);
+}
+
+.bi {
+    color: var(--secondary-color);
+}
+
+.card {
+    border:none;
+}

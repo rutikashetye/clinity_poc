@@ -1,0 +1,16 @@
+.image-div {
+    background-image: url('/assets/images/appointment.png'); /* Path to your image */
+    background-size: cover; /* Scale the image to cover the entire div */
+    background-position: center; /* Center the image */
+    width: 1100px;
+    height: 450px;
+}
+
+tbody ,td {
+    border: none;
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    color: white;
+}

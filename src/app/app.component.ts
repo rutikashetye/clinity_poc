@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { CommonModule } from '@angular/common';
 
@@ -20,4 +20,7 @@ import { CommonModule } from '@angular/common';
 })
 export class AppComponent {
   title = 'ui_poc';
+  ngOnInit(): void {
+    // Aos.init();
+  }
 }
