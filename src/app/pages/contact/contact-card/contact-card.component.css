@@ -3,7 +3,18 @@
     cursor: pointer;
     padding: 8%;
     border: none; 
+    color: var(--primary-color);
     background-color: var(--acent-color);
+}
+
+.card-title {
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-text {
+    font-size: 16px;
 }
 
 .dark-div {
@@ -11,5 +22,6 @@
     cursor: pointer;
     padding: 8%;
     border: none; 
+    color: white;
     background-color: var(--primary-color);
 }

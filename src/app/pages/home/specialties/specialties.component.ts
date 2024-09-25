@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { CardComponent as CardComponent } from "./card/card.component";
+import { SpecialtiesCardComponent } from "./specialties-card/specialties-card.component";
 
 @Component({
   selector: 'app-specialties',
   standalone: true,
-  imports: [CardComponent],
+  imports: [SpecialtiesCardComponent],
   templateUrl: './specialties.component.html',
   styleUrl: './specialties.component.css'
 })

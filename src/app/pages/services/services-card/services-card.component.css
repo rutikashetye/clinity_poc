@@ -1,0 +1,23 @@
+.title {
+    font-size: 26px;
+    font-family: "Work Sans", sans-serif;
+    color: var(--primary-color);
+}
+
+.p-text {
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.btn {
+    padding: 5px 15px; 
+    border-radius: 50px; 
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer; 
+    outline: none; 
+}
+
+.capsule-button:hover {
+    opacity: 80%;
+}

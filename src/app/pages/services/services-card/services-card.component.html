@@ -1,0 +1,12 @@
+<div class="container-fluid">
+    <div class="row p-4 m-3">
+        <div class="col" [ngClass]="{'order-2': isImageRight, 'order-1': !isImageRight}">
+            <img src="{{imageUrl}}" class="img-fluid">
+        </div>
+        <div class="col" [ngClass]="{'order-1': isImageRight, 'order-2': !isImageRight}">
+            <h4 class="title">{{ title }}</h4>
+            <p class="p-text">{{ content }}</p>
+            <button type="submit" class="btn">Learn More..</button>
+        </div>
+    </div>
+</div>

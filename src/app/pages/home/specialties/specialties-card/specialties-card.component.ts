@@ -4,10 +4,10 @@ import { Component, Input } from '@angular/core';
   selector: 'app-specialties-card',
   standalone: true,
   imports: [],
-  templateUrl: './card.component.html',
-  styleUrl: './card.component.css'
+  templateUrl: './specialties-card.component.html',
+  styleUrl: './specialties-card.component.css'
 })
-export class CardComponent {
+export class SpecialtiesCardComponent {
   @Input() title: string = '';
   @Input() cardClass: string = '';
 }

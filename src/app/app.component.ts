@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { CommonModule } from '@angular/common';
+import { ServicesComponent } from "./pages/services/services.component";
 
 @Component({
   selector: 'app-root',
@@ -13,8 +14,9 @@ import { CommonModule } from '@angular/common';
     HeaderComponent,
     HomeComponent,
     FooterComponent,
-    CommonModule
-  ],
+    CommonModule,
+    ServicesComponent
+],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })

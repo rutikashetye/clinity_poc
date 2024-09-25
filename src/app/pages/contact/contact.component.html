@@ -1,30 +1,18 @@
 <div class="container-fluid text-center p-3">
     <h6 class="sub-title">GET IN TOUCH</h6>
     <h4 class="title">Contact</h4>
-    <div class="row justify-content-center">
-        <div class="col-sm-6 col-lg-3 m-3">
-            <app-card
-            [imageUrl]="'assets/images/call.png'"
-            [title]="'EMERGENCY'"
-            [value1]="'91+ 1234567890'"
-            [value2]="'91+ 1234567890'" 
-            ></app-card>
+    <div class="row justify-content-center mt-4">
+        <div class="col-sm-6 col-lg-3 m-2">
+            <app-card [cardColor]="'light-div'" [iconClass]="'bi bi-telephone'" [title]="'EMERGENCY'"
+                [value1]="'91+ 1234567890'" [value2]="'91+ 1234567890'"></app-card>
         </div>
-        <div class="col-sm-6 col-lg-3 m-3">
-            <app-card
-            [imageUrl]="'assets/images/location.png'"
-            [title]="'LOCATION'"
-            [value1]="'0123 clinity street'"
-            [value2]="'India'" 
-            ></app-card>
+        <div class="col-sm-6 col-lg-3 m-2">
+            <app-card [cardColor]="'dark-div'" [iconClass]="'bi bi-geo-alt'" [title]="'LOCATION'"
+                [value1]="'0123 clinity street'" [value2]="'India'"></app-card>
         </div>
-        <div class="col-sm-6 col-lg-3 m-3">
-            <app-card
-            [imageUrl]="'assets/images/call.png'"
-            [title]="'EMAIL'"
-            [value1]="'nishad@clinity.com'"
-            [value2]="'nancy@clinity.com'" 
-            ></app-card>
+        <div class="col-sm-6 col-lg-3 m-2">
+            <app-card [cardColor]="'light-div'" [iconClass]="'bi bi-envelope '" [title]="'EMAIL'"
+                [value1]="'nishad@clinity.com'" [value2]="'nancy@clinity.com'"></app-card>
         </div>
     </div>
 </div>
